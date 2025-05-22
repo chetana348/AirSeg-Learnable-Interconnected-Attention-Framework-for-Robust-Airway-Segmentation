@@ -95,12 +95,14 @@ model = ResUNet(in_channels=1, out_channels=3)  # or adjust channels as needed
 
 > **Note:** The architecture is modular and plug-and-play compatible with most 2D medical image segmentation pipelines.
 > **Note** AirSeg can be used with any UNet like 2D encoders/decoders.
+
 ---
 
 ## 📦 Model Weights
 
 Pretrained model weights can be provided upon request.  
 Please contact us via email or open an issue in this repository.
+
 ---
 
 ## 📚 Citation
@@ -117,7 +119,7 @@ If you use this work in your research, **please cite us**:
   doi       = {10.1007/s10278-025-01545-z},
   note      = {Inform. med.}
 }
-
+```
 ---
 ## 🛡 License
 
