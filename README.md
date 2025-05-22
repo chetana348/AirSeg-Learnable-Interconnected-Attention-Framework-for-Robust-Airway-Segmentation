@@ -25,9 +25,5 @@ The model introduces **interconnected attention modules** that dynamically fuse 
 
 ---
 
-## 🛠 Installation
-
-```bash
-git clone https://github.com/your-username/AirSeg.git
-cd AirSeg
-pip install -r requirements.txt
+> **Note:** If you are looking for the lightweight encoder-decoder adaptation of this work, please see this repository:  
+> 👉 [Lung-and-Airway-Segmentation-using-Modified-UNet](https://github.com/chetana348/Lung-and-Airway-Segmentation-using-Modified-UNet)
