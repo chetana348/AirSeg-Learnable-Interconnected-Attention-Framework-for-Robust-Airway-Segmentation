@@ -68,7 +68,7 @@ This study utilizes the following datasets:
 - **UAB Airway Dataset** *(Proprietary)*  
   A private dataset of thoracic CT scans annotated for airway segmentation, sourced from the University of Alabama at Birmingham. Due to institutional restrictions, this dataset is **not publicly available**.
 
-- **[ProstateX](https://www.aapm.org/GrandChallenge/PROSTATEX/)**  
+- **[ProstateX]([https://www.aapm.org/GrandChallenge/PROSTATEX/](https://www.cancerimagingarchive.net/collection/prostatex/))**  
   A public prostate MRI dataset originally designed for lesion classification, adapted here to evaluate generalization of AirSeg to non-thoracic anatomical structures.
 
 > **Note:** Preprocessing scripts for both datasets are included under `scripts/dataloader.py`. Custom data loaders handle patch extraction, normalization, and mask alignment.
