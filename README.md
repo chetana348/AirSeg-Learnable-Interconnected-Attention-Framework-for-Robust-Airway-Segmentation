@@ -91,6 +91,8 @@ You can use your existing training scripts with the following setup:
 from models.resunet import *
 model = ResUNet(in_channels=1, out_channels=3)  # or adjust channels as needed
 
+```
+
 > **Note:** The architecture is modular and plug-and-play compatible with most 2D medical image segmentation pipelines.
 > **Note** AirSeg can be used with any UNet like 2D encoders/decoders.
 ---
